@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "telegraph", "telegraph.vcxproj", "{5B62715A-68A1-49DA-9BCF-64C6C6C2B8CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B62715A-68A1-49DA-9BCF-64C6C6C2B8CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B62715A-68A1-49DA-9BCF-64C6C6C2B8CE}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

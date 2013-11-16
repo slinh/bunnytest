@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="twitchsrc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="X:/dev/sdk/twitchsdk/samples/java/lwjgl-2.8.5/jar/jinput.jar"/>
+	<classpathentry kind="lib" path="X:/dev/sdk/twitchsdk/samples/java/lwjgl-2.8.5/jar/lwjgl.jar"/>
+	<classpathentry kind="lib" path="X:/dev/sdk/twitchsdk/samples/java/lwjgl-2.8.5/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="X:/dev/sdk/twitchsdk/samples/java/lwjgl-2.8.5/jar/lwjgl-debug.jar"/>
+	<classpathentry kind="lib" path="X:/dev/sdk/twitchsdk/samples/java/lwjgl-2.8.5/jar/lzma.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

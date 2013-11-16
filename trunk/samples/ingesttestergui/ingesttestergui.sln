@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngestTesterGui", "IngestTesterGui.csproj", "{DCAE3A98-107B-4C05-86FE-922C63DBF908}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F274FB-1ECC-488C-A157-D0D412D73017} = {05F274FB-1ECC-488C-A157-D0D412D73017}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchSdkWrapper", "..\..\bindings\csharp\wrapper\TwitchSdkWrapper.csproj", "{05F274FB-1ECC-488C-A157-D0D412D73017}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154} = {E6B2756F-D5A7-46C3-A58C-B7775467B154}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "twitchsdk", "..\..\twitchsdk.vcxproj", "{E6B2756F-D5A7-46C3-A58C-B7775467B154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|Win32.ActiveCfg = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|Win32.Build.0 = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|x64.ActiveCfg = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Debug|x64.Build.0 = Debug|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Release|Win32.ActiveCfg = Release|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Release|Win32.Build.0 = Release|x86
+		{DCAE3A98-107B-4C05-86FE-922C63DBF908}.Release|x64.ActiveCfg = Release|x86
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|Win32.Build.0 = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Debug|x64.Build.0 = Debug|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Release|Win32.ActiveCfg = Release|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Release|Win32.Build.0 = Release|Any CPU
+		{05F274FB-1ECC-488C-A157-D0D412D73017}.Release|x64.ActiveCfg = Release|Any CPU
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|Mixed Platforms.ActiveCfg = debug|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|Mixed Platforms.Build.0 = debug|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|Win32.ActiveCfg = Debug_Bindings|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|Win32.Build.0 = Debug_Bindings|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|x64.ActiveCfg = debug|x64
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Debug|x64.Build.0 = debug|x64
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|Mixed Platforms.ActiveCfg = release|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|Mixed Platforms.Build.0 = release|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|Win32.ActiveCfg = Release_Bindings|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|Win32.Build.0 = Release_Bindings|Win32
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|x64.ActiveCfg = release|x64
+		{E6B2756F-D5A7-46C3-A58C-B7775467B154}.Release|x64.Build.0 = release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
